@@ -14,7 +14,7 @@
         //Write a method that will print to the console numbers 3 through 999 by 3 each time
         public static void Threes()
         {
-            for (int i = 3; i <= 999; i = +3)
+            for (int i = 3; i <= 999; i += 3)
             {
                 Console.WriteLine(i);
             }
@@ -114,14 +114,14 @@
         //Call the methods to test them in the Main method below
         static void Main(string[] args)
         {
-            PrintThousand();
+            //PrintThousand();
             Threes();
-            TwoIntegers(5,3);
-            Evens(5);
-            Positive(5);
-            Vote();
-            TenIsTheWay(15);
-            Multiply(7);
+            //TwoIntegers(5,3);
+           // Evens(5);
+            //Positive(5);
+           //Vote();
+            //TenIsTheWay(15);
+            //Multiply(7);
         }
         
     }
